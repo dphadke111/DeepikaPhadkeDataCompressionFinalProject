@@ -8,6 +8,7 @@ clc
 
 %% Load the data
 
+% Change this location to where your MNIST data is stored. 
 load('C:\Users\dphad\OneDrive\Desktop\MScSystemsAndControl\Q3\DataCompression\mnist_dataset\mnist_train.csv')
 train_labels = mnist_train(:, 1);
 train_data = mnist_train(:, 2:end);
